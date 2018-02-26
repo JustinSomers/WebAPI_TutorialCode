@@ -1,0 +1,11 @@
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\bin\Debug\netcoreapp2.0\PortfolioWebApi.deps.json
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\bin\Debug\netcoreapp2.0\PortfolioWebApi.runtimeconfig.json
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\bin\Debug\netcoreapp2.0\PortfolioWebApi.runtimeconfig.dev.json
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\bin\Debug\netcoreapp2.0\PortfolioWebApi.dll
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\bin\Debug\netcoreapp2.0\PortfolioWebApi.pdb
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.csprojResolveAssemblyReference.cache
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.AssemblyInfoInputs.cache
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.AssemblyInfo.cs
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.dll
+C:\Users\Justin\Documents\WebProjects\portfolio\PortfolioApi\PortfolioWebApi\PortfolioWebApi\obj\Debug\netcoreapp2.0\PortfolioWebApi.pdb
