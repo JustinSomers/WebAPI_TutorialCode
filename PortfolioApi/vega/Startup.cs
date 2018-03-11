@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using vega.Persistence;
+using System.Data.Common;
+using System.Data.SqlClient;
 
 namespace vega
 {
@@ -29,7 +31,9 @@ namespace vega
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           // services.AddDbContext<VegaDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Default"]));
+            verifyConnectionString();
+           
+            // services.AddDbContext<VegaDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Default"]));
             services.AddDbContext<VegaDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
             services.AddMvc();
            // services.AddTransient<IRepository, Repository>();
@@ -63,6 +67,16 @@ namespace vega
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
             });
+        }
+
+        private void verifyConnectionString()
+        {
+            DbConnectionStringBuilder csb = new DbConnectionStringBuilder();
+            csb.ConnectionString = Configuration.GetConnectionString("Default");// throws
+            using (SqlConnection conn = new SqlConnection(csb.ConnectionString))
+            {
+                conn.Open(); // throws if invalid
+            }
         }
     }
 }
